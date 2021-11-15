@@ -1,0 +1,229 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	padding: 10px;
+	font-family: Taylor Sans Thin;
+	font-size: 38px;
+}
+.bl{
+	
+}
+.block{
+	background-image: url('../img/Hawaii-3.jpg');
+	background-position: center;
+	background-size: 100% 100%;
+	height: 800px;
+	width: 1565px;
+	position: relative;
+	z-index: 2;
+}
+/*-----------------  block1  -------------------*/
+.block1 {
+	position: relative;
+	bottom: 780px;
+	left: 800px;
+	
+}
+.block1:hover {
+	z-index: 2;
+}
+	.home{
+		position: relative;
+		z-index: 2;
+	}
+	.home:hover{
+		text-shadow: 1px 1px 2px black;
+	}
+	.home_2{
+		position: relative;
+		z-index: 0;
+		color: #000;
+	}
+	.home_2:hover{
+		text-shadow: 1px 1px 2px black;
+		left: 10px;
+	}
+	.home_3{
+		position: relative;
+		z-index: 0;
+		color: #000;
+	}
+	.home_3:hover{
+		text-shadow: 1px 1px 2px black;
+		left: 10px;
+	}
+	.home_4{
+		position: relative;
+		z-index: 0;
+	}
+	.home_4:hover{
+		text-shadow: 1px 1px 2px black;
+		left: 10px;
+	}
+	/*---------------------------------------- Block2-----------*/
+
+	.block2 {
+		position: relative;
+		bottom: 930px;
+		left: 920px;
+		
+	}
+	.block2:hover {
+		position: relative;
+		z-index: 2;
+	}
+		.about{
+			position: relative;
+			z-index: 2;
+		}
+		.about:hover{
+			text-shadow: 1px 1px 2px black;
+		}
+		.about_2{
+			position: relative;
+			z-index: 0;
+		}
+		.about_2:hover{
+			text-shadow: 1px 1px 2px black;
+			left: 10px;
+		}
+		.about_3{
+			position: relative;
+			z-index: 0;
+		}
+		.about_3:hover{
+			text-shadow: 1px 1px 2px black;
+			left: 10px;
+		}
+		.about_4{
+			position: relative;
+			z-index: 0;
+		}
+		.about_4:hover{
+			text-shadow: 1px 1px 2px black;
+			left: 10px;
+		}
+	
+/*------------------------------block3--------------------------*/
+.block3 {
+	position: relative;
+	bottom: 1080px;
+	left: 1050px;
+	
+}
+.block3:hover {
+	position: relative;
+	z-index: 2;
+}
+	.services{
+		position: relative;
+		z-index: 2;
+	}
+	.services:hover{
+		text-shadow: 1px 1px 2px black;
+	}
+	.services_2{
+		position: relative;
+		z-index: 0;
+	}
+	.services_2:hover{
+		text-shadow: 1px 1px 2px black;
+		left: 10px;
+	}
+	.services_3{
+		position: relative;
+		z-index: 0;
+	}
+	.services_3:hover{
+		text-shadow: 1px 1px 2px black;
+		left: 10px;
+	}
+	.services_4{
+		position: relative;
+		z-index: 0;
+	}
+	.services_4:hover{
+		text-shadow: 1px 1px 2px black;
+		left: 10px;
+	}
+	/*------------------------------block3--------------------------*/
+
+	.block4 {
+		position: relative;
+		bottom: 1230px;
+		left: 1220px;
+		
+	}
+	.block4:hover {
+		position: relative;
+		z-index: 2;
+	}
+		.blog{
+			position: relative;
+			z-index: 2;
+		}
+		.blog:hover{
+			text-shadow: 1px 1px 2px black;
+		}
+		.blog_2{
+			position: relative;
+			z-index: 0;
+		}
+		.blog_2:hover{
+			text-shadow: 1px 1px 2px black;
+			left: 10px;
+		}
+		.blog_3{
+			position: relative;
+			z-index: 0;
+		}
+		.blog_3:hover{
+			text-shadow: 1px 1px 2px black;
+			left: 10px;
+		}
+		.blog_4{
+			position: relative;
+			z-index: 0;
+		}
+		.blog_4:hover{
+			text-shadow: 1px 1px 2px black;
+			left: 10px;
+		}
